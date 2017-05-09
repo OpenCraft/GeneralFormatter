@@ -1,0 +1,16 @@
+PODS:
+  - GeneralFormatter (1.0.0)
+
+DEPENDENCIES:
+  - GeneralFormatter (from `../`)
+
+EXTERNAL SOURCES:
+  GeneralFormatter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GeneralFormatter: b7323404c723a041a08895a7fcb7db14b18e7fb8
+
+PODFILE CHECKSUM: ec4a3bc57021d94ba554319e839e0fcdacabf704
+
+COCOAPODS: 1.2.1

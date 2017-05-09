@@ -1,0 +1,6 @@
+framework module GeneralFormatter {
+  umbrella header "GeneralFormatter-umbrella.h"
+
+  export *
+  module * { export * }
+}

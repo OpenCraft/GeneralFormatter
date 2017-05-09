@@ -7,18 +7,21 @@
 //
 
 import UIKit
+import GeneralFormatter
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+}
 
+extension ViewController: UITextFieldDelegate {
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        let formatter = GeneralFormatter(type: .cpfCnpj)
+        return formatter.formatTextField(textField, shouldChangeCharactersIn: range, replacementString: string)
+    }
 }
 
