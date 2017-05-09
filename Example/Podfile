@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GeneralFormatter_Example' do
+  pod 'GeneralFormatter', :path => '../'
+
+  target 'GeneralFormatter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
