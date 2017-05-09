@@ -1,6 +1,6 @@
 # GeneralFormatter
 
-[![CI Status](http://img.shields.io/travis/Uriel Battanoli/GeneralFormatter.svg?style=flat)](https://travis-ci.org/Uriel Battanoli/GeneralFormatter)
+[![CI Status](http://img.shields.io/travis/OpenCraft/GeneralFormatter.svg?style=flat)](https://travis-ci.org/OpenCraft/GeneralFormatter)
 [![Version](https://img.shields.io/cocoapods/v/GeneralFormatter.svg?style=flat)](http://cocoapods.org/pods/GeneralFormatter)
 [![License](https://img.shields.io/cocoapods/l/GeneralFormatter.svg?style=flat)](http://cocoapods.org/pods/GeneralFormatter)
 [![Platform](https://img.shields.io/cocoapods/p/GeneralFormatter.svg?style=flat)](http://cocoapods.org/pods/GeneralFormatter)
@@ -18,6 +18,16 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "GeneralFormatter"
+```
+
+## Usage
+
+Link it directly on UITextFieldDelegate
+```swift
+func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    let formatter = GeneralFormatter(type: .cpfCnpj)
+    return formatter.formatTextField(textField, shouldChangeCharactersIn: range, replacementString: string)
+}
 ```
 
 ## Author
