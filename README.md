@@ -22,6 +22,8 @@ pod "GeneralFormatter"
 
 Link it directly on UITextFieldDelegate
 ```swift
+import GeneralFormatter
+
 func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
     let formatter = GeneralFormatter(type: .cpfCnpj)
     return formatter.formatTextField(textField, shouldChangeCharactersIn: range, replacementString: string)
