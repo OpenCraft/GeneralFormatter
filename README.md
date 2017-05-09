@@ -30,7 +30,7 @@ func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange
 
 ## Author
 
-Uriel Battanoli, urielbattanoli@hotmail.com
+Uriel Battanoli, urielbattanoli@gmail.com
 
 ## License
 
