@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GeneralFormatter'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'A general formatter.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A library to format some general information like: CNPJ, CPF, Brazilian telephone, etc.
+A library to format some general information like: CNPJ, CPF, Brazilian cell phone, etc.
                        DESC
 
   s.homepage         = 'https://github.com/OpenCraft/GeneralFormatter'
