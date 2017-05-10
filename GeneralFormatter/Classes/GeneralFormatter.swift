@@ -10,10 +10,11 @@ import Foundation
 
 
 public class GeneralFormatter {
-
+    
     public enum InfoType {
         case cpfCnpj
         case phone
+        case cep
     }
     
     private let type: InfoType
@@ -51,6 +52,18 @@ public class GeneralFormatter {
                 textField.text = formattedString(from: textField.textValue)
             }
             return true
+        case .cep:
+            guard let textCount = textField.text?.characters.count, textCount < 10 else {
+                if range.location < 10 {
+                    return true
+                }
+                return false
+            }
+            
+            if range.location >= textCount {
+                textField.text = formattedString(from: textField.textValue)
+            }
+            return true
         }
     }
     
@@ -60,6 +73,8 @@ public class GeneralFormatter {
             return getCpfCnpjFormatted(text)
         case .phone:
             return getPhoneFormatted(text)
+        case .cep:
+            return getCepFormatted(text)
         }
     }
     
@@ -113,6 +128,21 @@ public class GeneralFormatter {
         
         return formattedString as String
     }
+    
+    private func getCepFormatted(_ text: String) -> String {
+        let bruteText = text.removeSpecialCharacters()
+        let formattedString = NSMutableString(string: bruteText)
+        let textCount = bruteText.characters.count
+        
+        if textCount > 1 {
+            formattedString.insert(".", at: 2)
+        }
+        if textCount > 4 {
+            formattedString.insert("-", at: 6)
+        }
+        
+        return formattedString as String
+    }
 }
 
 fileprivate extension String {
@@ -138,19 +168,10 @@ fileprivate extension String {
         }
         return nil
     }
-    
-    func CEPFormatted() -> String? {
-        if characters.count >= 11 {
-            let formattedString = NSMutableString(string: self)
-            formattedString.insert(".", at: 2)
-            formattedString.insert("-", at: 6)
-            return formattedString as String
-        }
-        return nil
-    }
 }
 
 fileprivate extension UITextField {
+    
     var textValue: String {
         return self.text ?? ""
     }
