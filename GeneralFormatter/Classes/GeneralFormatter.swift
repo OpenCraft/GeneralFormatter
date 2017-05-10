@@ -68,14 +68,11 @@ public class GeneralFormatter {
         let formattedString = NSMutableString(string: bruteText)
         let textCount = bruteText.characters.count
         
-        if textCount > 0 {
+        if textCount >= 0 {
             formattedString.insert("(", at: 0)
         }
         if textCount > 1 {
-            formattedString.insert(")", at: 3)
-        }
-        if textCount > 2 {
-            formattedString.insert(" ", at: 4)
+            formattedString.insert(") ", at: 3)
         }
         if textCount > 6 {
             formattedString.insert("-", at: 10)
@@ -119,6 +116,7 @@ public class GeneralFormatter {
 }
 
 fileprivate extension String {
+    
     func removeSpecialCharacters() -> String {
         var string = self.replacingOccurrences(of: ".", with: "")
         string = string.replacingOccurrences(of: "/", with: "")
