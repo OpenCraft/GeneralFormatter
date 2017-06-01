@@ -101,7 +101,7 @@ public class GeneralFormatter {
         let formattedString = NSMutableString(string: bruteText)
         let textCount = bruteText.characters.count
         
-        if textCount < 11 {
+        if textCount < 12 {
             if textCount > 2 {
                 formattedString.insert(".", at: 3)
             }
