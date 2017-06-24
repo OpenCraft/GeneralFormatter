@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GeneralFormatter'
-  s.version          = '1.1.1'
+  s.version          = '2'
   s.summary          = 'A general formatter.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ A library to format some general information like: CNPJ, CPF, Brazilian cell pho
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'GeneralFormatter/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'GeneralFormatter' => ['GeneralFormatter/Assets/*.png']
   # }
