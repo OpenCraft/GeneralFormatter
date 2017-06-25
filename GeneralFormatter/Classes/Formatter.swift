@@ -8,12 +8,13 @@
 
 import Foundation
 
-protocol Formatter {
+public protocol Formatter {
     func format(value: String) -> String
     func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange) -> Bool
 }
 
 extension Formatter {
+    
     func removeSpecialCharacters(of value: String) -> String {
         var string = value.replacingOccurrences(of: ".", with: "")
         string = string.replacingOccurrences(of: "/", with: "")
@@ -21,7 +22,6 @@ extension Formatter {
         string = string.replacingOccurrences(of: "(", with: "")
         string = string.replacingOccurrences(of: ")", with: "")
         string = string.replacingOccurrences(of: " ", with: "")
-        
         return string
     }
     

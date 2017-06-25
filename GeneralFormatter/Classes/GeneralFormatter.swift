@@ -1,11 +1,3 @@
-//
-//  AgiplanFormatter.swift
-//  Agipag
-//
-//  Created by Uriel Battanoli on 02/05/17.
-//  Copyright © 2017 Banco Agiplan. All rights reserved.
-//
-
 import Foundation
 
 public enum GeneralFormatter {
@@ -15,6 +7,7 @@ public enum GeneralFormatter {
     case cpfCnpj
     case phone
     case cep
+    case custom(formatter: Formatter)
     
     var formatter: Formatter {
         switch self {
@@ -28,6 +21,8 @@ public enum GeneralFormatter {
             return CNPJFormatter()
         case .cpfCnpj:
             return CPFCNPJFormatter()
+        case .custom(let formatter):
+            return formatter
         }
     }
     
