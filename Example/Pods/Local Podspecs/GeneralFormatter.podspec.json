@@ -1,19 +1,19 @@
 {
   "name": "GeneralFormatter",
-  "version": "1.0.0",
-  "summary": "A short description of GeneralFormatter.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Uriel Battanoli/GeneralFormatter",
+  "version": "1.1.1",
+  "summary": "A general formatter.",
+  "description": "A library to format some general information like: CNPJ, CPF, Brazilian cell phone, etc.",
+  "homepage": "https://github.com/OpenCraft/GeneralFormatter",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Uriel Battanoli": "urielbattanoli@hotmail.com"
+    "Uriel Battanoli": "urielbattanoli@gmail.com"
   },
   "source": {
     "git": "https://github.com/OpenCraft/GeneralFormatter.git",
-    "tag": "1.0.0"
+    "tag": "1.1.1"
   },
   "platforms": {
     "ios": "8.0"

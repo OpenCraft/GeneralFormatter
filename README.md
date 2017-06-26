@@ -5,6 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/GeneralFormatter.svg?style=flat)](http://cocoapods.org/pods/GeneralFormatter)
 [![Platform](https://img.shields.io/cocoapods/p/GeneralFormatter.svg?style=flat)](http://cocoapods.org/pods/GeneralFormatter)
 
+## Features
+You can apply the following masks on your textfields:
+ - CEP
+ - CPF
+ - CNPJ
+ - PHONE
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -25,8 +32,7 @@ Link it directly on UITextFieldDelegate
 import GeneralFormatter
 
 func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-    let formatter = GeneralFormatter(type: .cpfCnpj)
-    return formatter.formatTextField(textField, shouldChangeCharactersIn: range, replacementString: string)
+    return GeneralFormatter.cpf.formatTextField(_: textField, shouldChangeCharactersIn: range, replacementString: string)
 }
 ```
 
