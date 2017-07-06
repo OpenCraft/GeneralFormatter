@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		053579417EA0C37A78159065DBC0D525 /* Pods-GeneralFormatter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEC876DA5B42B2D3765555308AB7E21 /* Pods-GeneralFormatter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FFDE9C7892230845D1771B55699F2CC /* GeneralFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 134276A5BA31F9EBE27F4729C26262F2 /* GeneralFormatter-dummy.m */; };
-		1EBC21527133F32031819FF4AC83CA1E /* PhoneFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E363A38DD7521CFC64EEEB4636DBBE26 /* PhoneFormatter.swift */; };
-		426ECA53B166C12D049C4152B2121E34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5C828C5144077CF03FB0BA6A4FEB3195 /* CNPJFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72FCAD001A4EB0DDCE77C95496EE6B /* CNPJFormatter.swift */; };
-		5D0E4B2F151AF4EFEDDE62C0E516D8A4 /* CEPFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD1D684BDD56120AD8C7AE205C0FECB /* CEPFormatter.swift */; };
-		8EAFF2B7D83E354C35E9C86245440117 /* CPFCNPJFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6665FC1104AAE71D0F628ECC529C268 /* CPFCNPJFormatter.swift */; };
-		920A2B9F1F0EB9E80029E9E1 /* BoletoFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A2B9E1F0EB9E80029E9E1 /* BoletoFormatter.swift */; };
-		9E09C36F39780E1144A559E6BB41CB9C /* GeneralFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2632E2F02CBB180EF08FE4E4604F79B1 /* GeneralFormatter.swift */; };
+		1139C3FA1D3FB2AF318D6118894728E5 /* GeneralFormatter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A881C1EB5CB8C8A0842EF5A44DB644EC /* GeneralFormatter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3669F9F02338BF0AD53E934548BD9C5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3684965732623FDF171589938025069F /* CPFFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6AE6A9627C99D9B8FB682D76C201C8 /* CPFFormatter.swift */; };
+		5F12E0A2AC1248FAE1D5D8016F453DB2 /* CEPFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CE8535D66A6ECE10BC8AC5C4110C8 /* CEPFormatter.swift */; };
+		6E5F83AD9D09FEAB6B05E79D68B6461D /* BoletoFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327D666007664E25F471BEE243BB30C3 /* BoletoFormatter.swift */; };
+		81634FE536E1637122CD978F1CDF8F6A /* PhoneFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA19484794C03C979FE7E898E98F34F /* PhoneFormatter.swift */; };
 		B11BD5D7D5C59948529986EE2580B65B /* Pods-GeneralFormatter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FE7A60001077F1884913F50899DE17 /* Pods-GeneralFormatter_Tests-dummy.m */; };
 		B76C6D4BA20874BBCAB93A1D8668F419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D40B7BE65B445E024032CE06279F0413 /* GeneralFormatter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A881C1EB5CB8C8A0842EF5A44DB644EC /* GeneralFormatter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF695F0F244A2D6E9A8B290C6E9702CB /* CNPJFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EF55565B6AFEB11300D3755F6767AF /* CNPJFormatter.swift */; };
+		CFCFC4790ACCBAFBA94CBD0C532D94DB /* GeneralFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 134276A5BA31F9EBE27F4729C26262F2 /* GeneralFormatter-dummy.m */; };
+		D06F36897F42EC40FD2298772D370D0A /* CPFCNPJFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8187E479AF76562DBEEBCD5D08F2DAA5 /* CPFCNPJFormatter.swift */; };
 		D4B7985BAED2AAE3BA559859CA8B88A0 /* Pods-GeneralFormatter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D69ACDA7481F1B27705B250702F67F4 /* Pods-GeneralFormatter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5C8B93A35C81AE09B14949B4C0241CA /* Pods-GeneralFormatter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4023D0EB5F51E91F0A52EE92483FE6FA /* Pods-GeneralFormatter_Example-dummy.m */; };
-		DD28382737CBB00430341C572946092C /* CPFFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670B520341DCE7544063AB5685D70B4C /* CPFFormatter.swift */; };
 		E283F26250079A6389D028BC4079AD2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		ED448894CACA8F8204948B0C8777BBD1 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2136A9CBA5A20F0C024900AD6462A /* Formatter.swift */; };
+		F66203DE97D7BF5E34AD0B3EA0F4A7E8 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC448F909A99FBC31B4F00D282DE55 /* Formatter.swift */; };
+		F9249C12E23D36344D70F7F6CE8957E4 /* GeneralFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88DB225839F1A3E1FFD4FBFF5E0383F /* GeneralFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +31,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AA8234E5C7B36012721E3CF517EFF202;
+			remoteGlobalIDString = 7F6D36699BFDDE25ABBE49CBBEA277ED;
 			remoteInfo = GeneralFormatter;
 		};
 /* End PBXContainerItemProxy section */
@@ -43,39 +43,39 @@
 		1D69ACDA7481F1B27705B250702F67F4 /* Pods-GeneralFormatter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeneralFormatter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		22BDC1CBDF3FA1192BCDD20C431E224D /* Pods-GeneralFormatter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeneralFormatter_Example-resources.sh"; sourceTree = "<group>"; };
 		24621E5949E3E4545C5A87C730972914 /* Pods-GeneralFormatter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeneralFormatter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2632E2F02CBB180EF08FE4E4604F79B1 /* GeneralFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneralFormatter.swift; sourceTree = "<group>"; };
 		2733BE6CA5EDBE5E2C50A88D2A979772 /* Pods-GeneralFormatter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeneralFormatter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2E72FCAD001A4EB0DDCE77C95496EE6B /* CNPJFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CNPJFormatter.swift; sourceTree = "<group>"; };
+		2B6AE6A9627C99D9B8FB682D76C201C8 /* CPFFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CPFFormatter.swift; sourceTree = "<group>"; };
 		2E73C5ECE8B621A417E86CCE929A31C0 /* Pods-GeneralFormatter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeneralFormatter_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		36388698974F367415EF0D67C403ED30 /* Pods_GeneralFormatter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeneralFormatter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31EF55565B6AFEB11300D3755F6767AF /* CNPJFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CNPJFormatter.swift; sourceTree = "<group>"; };
+		327D666007664E25F471BEE243BB30C3 /* BoletoFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoletoFormatter.swift; sourceTree = "<group>"; };
+		36388698974F367415EF0D67C403ED30 /* Pods_GeneralFormatter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GeneralFormatter_Example.framework; path = "Pods-GeneralFormatter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D67E263AB4C4196B38D25156991229 /* GeneralFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeneralFormatter-prefix.pch"; sourceTree = "<group>"; };
-		3BC609749ABB798893B0E167FB325BE8 /* GeneralFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GeneralFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC609749ABB798893B0E167FB325BE8 /* GeneralFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GeneralFormatter.framework; path = GeneralFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8B86C8D6B339A4EC8178DAB3B98C10 /* Pods-GeneralFormatter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeneralFormatter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4023D0EB5F51E91F0A52EE92483FE6FA /* Pods-GeneralFormatter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeneralFormatter_Example-dummy.m"; sourceTree = "<group>"; };
 		4BB651233D467E9D4E56BE22A5BDCC2C /* Pods-GeneralFormatter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeneralFormatter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4CEC448F909A99FBC31B4F00D282DE55 /* Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
 		55FE7A60001077F1884913F50899DE17 /* Pods-GeneralFormatter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeneralFormatter_Tests-dummy.m"; sourceTree = "<group>"; };
 		5834DB0E573A896DDBBF119FCAB29516 /* Pods-GeneralFormatter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeneralFormatter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		65D0AC12E8A3F6B0C22E0079E775AA44 /* Pods-GeneralFormatter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GeneralFormatter_Example.modulemap"; sourceTree = "<group>"; };
+		65D0AC12E8A3F6B0C22E0079E775AA44 /* Pods-GeneralFormatter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GeneralFormatter_Example.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		670B520341DCE7544063AB5685D70B4C /* CPFFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CPFFormatter.swift; sourceTree = "<group>"; };
-		920A2B9E1F0EB9E80029E9E1 /* BoletoFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoletoFormatter.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6C6CE8535D66A6ECE10BC8AC5C4110C8 /* CEPFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CEPFormatter.swift; sourceTree = "<group>"; };
+		8187E479AF76562DBEEBCD5D08F2DAA5 /* CPFCNPJFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CPFCNPJFormatter.swift; sourceTree = "<group>"; };
+		8AA19484794C03C979FE7E898E98F34F /* PhoneFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhoneFormatter.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		987745BAA40A9FF1741AC96472B67B42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CB901B5A70C5207BF626B2CDBFA0C0A /* Pods-GeneralFormatter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeneralFormatter_Tests-resources.sh"; sourceTree = "<group>"; };
-		9CD1D684BDD56120AD8C7AE205C0FECB /* CEPFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CEPFormatter.swift; sourceTree = "<group>"; };
 		A881C1EB5CB8C8A0842EF5A44DB644EC /* GeneralFormatter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeneralFormatter-umbrella.h"; sourceTree = "<group>"; };
 		ADEC876DA5B42B2D3765555308AB7E21 /* Pods-GeneralFormatter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeneralFormatter_Example-umbrella.h"; sourceTree = "<group>"; };
 		B02FB788689AD004B5E97C463E9543BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B91D58B5A6EAEFAF919713A4EA3FDA57 /* Pods-GeneralFormatter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeneralFormatter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C31BE587CB3FDD51BC258BE1AC14375D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4F76C8F66E34DE016673FCF84E52652 /* Pods-GeneralFormatter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GeneralFormatter_Tests.modulemap"; sourceTree = "<group>"; };
-		D1B547E3921E5B2249D6EA33DA844E32 /* GeneralFormatter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GeneralFormatter.modulemap; sourceTree = "<group>"; };
+		C4F76C8F66E34DE016673FCF84E52652 /* Pods-GeneralFormatter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GeneralFormatter_Tests.modulemap"; sourceTree = "<group>"; };
+		D1B547E3921E5B2249D6EA33DA844E32 /* GeneralFormatter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GeneralFormatter.modulemap; sourceTree = "<group>"; };
 		D522545E768E5A718055994E3E6A01C0 /* Pods-GeneralFormatter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeneralFormatter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D88DB225839F1A3E1FFD4FBFF5E0383F /* GeneralFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneralFormatter.swift; sourceTree = "<group>"; };
 		D983B97E76C16169DA545FBFDF4CE505 /* Pods-GeneralFormatter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeneralFormatter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E363A38DD7521CFC64EEEB4636DBBE26 /* PhoneFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhoneFormatter.swift; sourceTree = "<group>"; };
-		EF07851694C44D0E149165DD30ABFEDC /* Pods_GeneralFormatter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeneralFormatter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6665FC1104AAE71D0F628ECC529C268 /* CPFCNPJFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CPFCNPJFormatter.swift; sourceTree = "<group>"; };
-		FED2136A9CBA5A20F0C024900AD6462A /* Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		EF07851694C44D0E149165DD30ABFEDC /* Pods_GeneralFormatter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GeneralFormatter_Tests.framework; path = "Pods-GeneralFormatter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,19 +87,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77B94D1CC9CEF7E3F1E1D240E374676C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				426ECA53B166C12D049C4152B2121E34 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B02E5C02A22678FA05D3F15C73DFF80B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E283F26250079A6389D028BC4079AD2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB05B4402B469D4A413E357B2F591957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3669F9F02338BF0AD53E934548BD9C5F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +122,22 @@
 			);
 			name = "Pods-GeneralFormatter_Tests";
 			path = "Target Support Files/Pods-GeneralFormatter_Tests";
+			sourceTree = "<group>";
+		};
+		07A972C4DE0052A43DE04762B2BBE2CF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				327D666007664E25F471BEE243BB30C3 /* BoletoFormatter.swift */,
+				6C6CE8535D66A6ECE10BC8AC5C4110C8 /* CEPFormatter.swift */,
+				31EF55565B6AFEB11300D3755F6767AF /* CNPJFormatter.swift */,
+				8187E479AF76562DBEEBCD5D08F2DAA5 /* CPFCNPJFormatter.swift */,
+				2B6AE6A9627C99D9B8FB682D76C201C8 /* CPFFormatter.swift */,
+				4CEC448F909A99FBC31B4F00D282DE55 /* Formatter.swift */,
+				D88DB225839F1A3E1FFD4FBFF5E0383F /* GeneralFormatter.swift */,
+				8AA19484794C03C979FE7E898E98F34F /* PhoneFormatter.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		0BA258484F112EFF1816EDC10B375A43 /* Pods-GeneralFormatter_Example */ = {
@@ -159,35 +175,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1D1648B78581F8A80F9D92453FCC0242 /* GeneralFormatter */ = {
+		54BE54D01D263901D09B9E427C468ED5 /* GeneralFormatter */ = {
 			isa = PBXGroup;
 			children = (
-				616033733059E946446FC12FEE607FE1 /* Classes */,
+				07A972C4DE0052A43DE04762B2BBE2CF /* Classes */,
 			);
+			name = GeneralFormatter;
 			path = GeneralFormatter;
-			sourceTree = "<group>";
-		};
-		4E1828281EFC6BD20097FF7C /* Formatters */ = {
-			isa = PBXGroup;
-			children = (
-				E363A38DD7521CFC64EEEB4636DBBE26 /* PhoneFormatter.swift */,
-				9CD1D684BDD56120AD8C7AE205C0FECB /* CEPFormatter.swift */,
-				2E72FCAD001A4EB0DDCE77C95496EE6B /* CNPJFormatter.swift */,
-				F6665FC1104AAE71D0F628ECC529C268 /* CPFCNPJFormatter.swift */,
-				670B520341DCE7544063AB5685D70B4C /* CPFFormatter.swift */,
-				920A2B9E1F0EB9E80029E9E1 /* BoletoFormatter.swift */,
-			);
-			name = Formatters;
-			sourceTree = "<group>";
-		};
-		616033733059E946446FC12FEE607FE1 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4E1828281EFC6BD20097FF7C /* Formatters */,
-				FED2136A9CBA5A20F0C024900AD6462A /* Formatter.swift */,
-				2632E2F02CBB180EF08FE4E4604F79B1 /* GeneralFormatter.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -226,7 +220,7 @@
 		C0B024C692E9902CE353CF1D8A2FB938 /* GeneralFormatter */ = {
 			isa = PBXGroup;
 			children = (
-				1D1648B78581F8A80F9D92453FCC0242 /* GeneralFormatter */,
+				54BE54D01D263901D09B9E427C468ED5 /* GeneralFormatter */,
 				A539220D3A16B8DDE8F1DF4141A7E34A /* Support Files */,
 			);
 			name = GeneralFormatter;
@@ -254,14 +248,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		439B1C5BEC2F9F49B490AF50A34E3742 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D40B7BE65B445E024032CE06279F0413 /* GeneralFormatter-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4E64E9CEB7AB3C7F71A26D61504C1DFB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,9 +264,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F1EBE6510BD0C03083A86DE5AAA6047 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1139C3FA1D3FB2AF318D6118894728E5 /* GeneralFormatter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		7F6D36699BFDDE25ABBE49CBBEA277ED /* GeneralFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE6A02B1287648B58B04EC97ADF47D6 /* Build configuration list for PBXNativeTarget "GeneralFormatter" */;
+			buildPhases = (
+				8141ACB2727763C4A3FCEFB7A5132289 /* Sources */,
+				EB05B4402B469D4A413E357B2F591957 /* Frameworks */,
+				7F1EBE6510BD0C03083A86DE5AAA6047 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeneralFormatter;
+			productName = GeneralFormatter;
+			productReference = 3BC609749ABB798893B0E167FB325BE8 /* GeneralFormatter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		93BFF57E6BE29F545801ED3303EA358B /* Pods-GeneralFormatter_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 631DCBECFC4BD11C43EB4B10F80015A9 /* Build configuration list for PBXNativeTarget "Pods-GeneralFormatter_Example" */;
@@ -316,23 +327,6 @@
 			productReference = EF07851694C44D0E149165DD30ABFEDC /* Pods_GeneralFormatter_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AA8234E5C7B36012721E3CF517EFF202 /* GeneralFormatter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4871F87E606A33638D1751549BEC2600 /* Build configuration list for PBXNativeTarget "GeneralFormatter" */;
-			buildPhases = (
-				FD59B247167F0A6C1F161AA4C592DA99 /* Sources */,
-				77B94D1CC9CEF7E3F1E1D240E374676C /* Frameworks */,
-				439B1C5BEC2F9F49B490AF50A34E3742 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GeneralFormatter;
-			productName = GeneralFormatter;
-			productReference = 3BC609749ABB798893B0E167FB325BE8 /* GeneralFormatter.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -354,7 +348,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA8234E5C7B36012721E3CF517EFF202 /* GeneralFormatter */,
+				7F6D36699BFDDE25ABBE49CBBEA277ED /* GeneralFormatter */,
 				93BFF57E6BE29F545801ED3303EA358B /* Pods-GeneralFormatter_Example */,
 				98A27F39C888CA1CA62971095D37EA3D /* Pods-GeneralFormatter_Tests */,
 			);
@@ -370,27 +364,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8141ACB2727763C4A3FCEFB7A5132289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5F83AD9D09FEAB6B05E79D68B6461D /* BoletoFormatter.swift in Sources */,
+				5F12E0A2AC1248FAE1D5D8016F453DB2 /* CEPFormatter.swift in Sources */,
+				BF695F0F244A2D6E9A8B290C6E9702CB /* CNPJFormatter.swift in Sources */,
+				D06F36897F42EC40FD2298772D370D0A /* CPFCNPJFormatter.swift in Sources */,
+				3684965732623FDF171589938025069F /* CPFFormatter.swift in Sources */,
+				F66203DE97D7BF5E34AD0B3EA0F4A7E8 /* Formatter.swift in Sources */,
+				CFCFC4790ACCBAFBA94CBD0C532D94DB /* GeneralFormatter-dummy.m in Sources */,
+				F9249C12E23D36344D70F7F6CE8957E4 /* GeneralFormatter.swift in Sources */,
+				81634FE536E1637122CD978F1CDF8F6A /* PhoneFormatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		823E40D263F9BB8B59B220B5F79433C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B11BD5D7D5C59948529986EE2580B65B /* Pods-GeneralFormatter_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD59B247167F0A6C1F161AA4C592DA99 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D0E4B2F151AF4EFEDDE62C0E516D8A4 /* CEPFormatter.swift in Sources */,
-				5C828C5144077CF03FB0BA6A4FEB3195 /* CNPJFormatter.swift in Sources */,
-				8EAFF2B7D83E354C35E9C86245440117 /* CPFCNPJFormatter.swift in Sources */,
-				DD28382737CBB00430341C572946092C /* CPFFormatter.swift in Sources */,
-				920A2B9F1F0EB9E80029E9E1 /* BoletoFormatter.swift in Sources */,
-				ED448894CACA8F8204948B0C8777BBD1 /* Formatter.swift in Sources */,
-				0FFDE9C7892230845D1771B55699F2CC /* GeneralFormatter-dummy.m in Sources */,
-				9E09C36F39780E1144A559E6BB41CB9C /* GeneralFormatter.swift in Sources */,
-				1EBC21527133F32031819FF4AC83CA1E /* PhoneFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,12 +394,46 @@
 		1188805F4CEB3660CD7F939B773FD831 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GeneralFormatter;
-			target = AA8234E5C7B36012721E3CF517EFF202 /* GeneralFormatter */;
+			target = 7F6D36699BFDDE25ABBE49CBBEA277ED /* GeneralFormatter */;
 			targetProxy = 4F5B0C742A6BF016AE9DE750CB7A75DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		11E3DD0F84DD27E6A180D93BEFEA9EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12101FC4FA8B7B9B48D6729B08A5D9FA /* GeneralFormatter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GeneralFormatter/GeneralFormatter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GeneralFormatter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GeneralFormatter/GeneralFormatter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GeneralFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		16B7622885270D57D15F1CCDF4F163B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4BB651233D467E9D4E56BE22A5BDCC2C /* Pods-GeneralFormatter_Example.release.xcconfig */;
@@ -647,7 +675,7 @@
 			};
 			name = Release;
 		};
-		AB8104188B621A29E857D4F18E7E4B64 /* Debug */ = {
+		9C9A3841B4E80E8D40C220538EE23FAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12101FC4FA8B7B9B48D6729B08A5D9FA /* GeneralFormatter.xcconfig */;
 			buildSettings = {
@@ -682,40 +710,6 @@
 			};
 			name = Debug;
 		};
-		AC1DD0F0BC06FCAECB381A469993ED72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12101FC4FA8B7B9B48D6729B08A5D9FA /* GeneralFormatter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GeneralFormatter/GeneralFormatter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GeneralFormatter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GeneralFormatter/GeneralFormatter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = GeneralFormatter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -728,11 +722,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4871F87E606A33638D1751549BEC2600 /* Build configuration list for PBXNativeTarget "GeneralFormatter" */ = {
+		2DE6A02B1287648B58B04EC97ADF47D6 /* Build configuration list for PBXNativeTarget "GeneralFormatter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB8104188B621A29E857D4F18E7E4B64 /* Debug */,
-				AC1DD0F0BC06FCAECB381A469993ED72 /* Release */,
+				9C9A3841B4E80E8D40C220538EE23FAB /* Debug */,
+				11E3DD0F84DD27E6A180D93BEFEA9EB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
