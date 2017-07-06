@@ -14,6 +14,7 @@
 		5C828C5144077CF03FB0BA6A4FEB3195 /* CNPJFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72FCAD001A4EB0DDCE77C95496EE6B /* CNPJFormatter.swift */; };
 		5D0E4B2F151AF4EFEDDE62C0E516D8A4 /* CEPFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD1D684BDD56120AD8C7AE205C0FECB /* CEPFormatter.swift */; };
 		8EAFF2B7D83E354C35E9C86245440117 /* CPFCNPJFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6665FC1104AAE71D0F628ECC529C268 /* CPFCNPJFormatter.swift */; };
+		920A2B9F1F0EB9E80029E9E1 /* BoletoFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A2B9E1F0EB9E80029E9E1 /* BoletoFormatter.swift */; };
 		9E09C36F39780E1144A559E6BB41CB9C /* GeneralFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2632E2F02CBB180EF08FE4E4604F79B1 /* GeneralFormatter.swift */; };
 		B11BD5D7D5C59948529986EE2580B65B /* Pods-GeneralFormatter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FE7A60001077F1884913F50899DE17 /* Pods-GeneralFormatter_Tests-dummy.m */; };
 		B76C6D4BA20874BBCAB93A1D8668F419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -57,6 +58,7 @@
 		65D0AC12E8A3F6B0C22E0079E775AA44 /* Pods-GeneralFormatter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GeneralFormatter_Example.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		670B520341DCE7544063AB5685D70B4C /* CPFFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CPFFormatter.swift; sourceTree = "<group>"; };
+		920A2B9E1F0EB9E80029E9E1 /* BoletoFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoletoFormatter.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		987745BAA40A9FF1741AC96472B67B42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CB901B5A70C5207BF626B2CDBFA0C0A /* Pods-GeneralFormatter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeneralFormatter_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				2E72FCAD001A4EB0DDCE77C95496EE6B /* CNPJFormatter.swift */,
 				F6665FC1104AAE71D0F628ECC529C268 /* CPFCNPJFormatter.swift */,
 				670B520341DCE7544063AB5685D70B4C /* CPFFormatter.swift */,
+				920A2B9E1F0EB9E80029E9E1 /* BoletoFormatter.swift */,
 			);
 			name = Formatters;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				5C828C5144077CF03FB0BA6A4FEB3195 /* CNPJFormatter.swift in Sources */,
 				8EAFF2B7D83E354C35E9C86245440117 /* CPFCNPJFormatter.swift in Sources */,
 				DD28382737CBB00430341C572946092C /* CPFFormatter.swift in Sources */,
+				920A2B9F1F0EB9E80029E9E1 /* BoletoFormatter.swift in Sources */,
 				ED448894CACA8F8204948B0C8777BBD1 /* Formatter.swift in Sources */,
 				0FFDE9C7892230845D1771B55699F2CC /* GeneralFormatter-dummy.m in Sources */,
 				9E09C36F39780E1144A559E6BB41CB9C /* GeneralFormatter.swift in Sources */,
