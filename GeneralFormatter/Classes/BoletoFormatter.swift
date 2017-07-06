@@ -21,7 +21,7 @@ struct BoletoFormatter: Formatter {
         if count > 9 {
             formattedString.insert(" ", at: 11)
         }
-        if count > 15 {
+        if count > 14 {
             formattedString.insert(".", at: 17)
         }
         if count > 20 {
@@ -40,7 +40,7 @@ struct BoletoFormatter: Formatter {
     }
     
     func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange) -> Bool {
-        return shouldChangeCharacters(of: textField, inRange: range, withLimit: 54)
+        return shouldChangeCharacters(of: textField, inRange: range, withLimit: 61)
     }
 }
 
