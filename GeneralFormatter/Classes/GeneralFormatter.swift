@@ -2,6 +2,7 @@ import Foundation
 
 public enum GeneralFormatter {
     
+    case boleto
     case cpf
     case cnpj
     case cpfCnpj
@@ -11,6 +12,8 @@ public enum GeneralFormatter {
     
     var formatter: Formatter {
         switch self {
+        case .boleto:
+            return BoletoFormatter()
         case .cpf:
             return CPFFormatter()
         case .phone:
