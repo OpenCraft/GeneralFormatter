@@ -7,6 +7,7 @@
 
 ## Features
 You can apply the following masks on your textfields:
+ - BOLETO
  - CEP
  - CPF
  - CNPJ

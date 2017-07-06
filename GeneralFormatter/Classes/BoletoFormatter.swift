@@ -27,6 +27,15 @@ struct BoletoFormatter: Formatter {
         if count > 23 {
             formattedString.insert(" ", at: 24)
         }
+        if count > 29 {
+            formattedString.insert(".", at: 30)
+        }
+        if count > 36 {
+            formattedString.insert(" ", at: 37)
+        }
+        if count > 38 {
+            formattedString.insert(" ", at: 39)
+        }
         return formattedString as String
     }
     
