@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     }
     
     @objc func editingChange(sender: UITextField) {
-        print(sender.text)
+        print(sender.text ?? "")
     }
 }
 
