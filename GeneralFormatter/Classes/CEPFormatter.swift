@@ -3,20 +3,19 @@ import Foundation
 struct CEPFormatter: Formatter {
     
     func format(value: String) -> String {
-        let valueWithoutCharacters = value.digitsOnly
-        let formattedString = NSMutableString(string: valueWithoutCharacters)
-        let count = valueWithoutCharacters.characters.count
+        let formattedString = NSMutableString(string: value.digitsOnly)
         
-        if count > 1 {
+        if formattedString.count > 2 {
             formattedString.insert(".", at: 2)
         }
-        if count > 4 {
+        if formattedString.count > 6 {
             formattedString.insert("-", at: 6)
         }
+        
         return formattedString as String
     }
     
     func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange, typedText: String) -> Bool {
-        return shouldChangeCharacters(of: textField, inRange: range, typedText: typedText, maxLength: 8)
+        return shouldChangeCharacters(of: textField, inRange: range, typedText: typedText, maxLength: 10)
     }
 }

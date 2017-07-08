@@ -19,6 +19,16 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        txtCPF.addTarget(self, action: #selector(editingChange(sender:)), for: .editingChanged)
+        txtCNPJ.addTarget(self, action: #selector(editingChange(sender:)), for: .editingChanged)
+        txtCPFCNPJ.addTarget(self, action: #selector(editingChange(sender:)), for: .editingChanged)
+        txtCEP.addTarget(self, action: #selector(editingChange(sender:)), for: .editingChanged)
+        txtPhone.addTarget(self, action: #selector(editingChange(sender:)), for: .editingChanged)
+    }
+    
+    @objc func editingChange(sender: UITextField) {
+        print(sender.text)
     }
 }
 

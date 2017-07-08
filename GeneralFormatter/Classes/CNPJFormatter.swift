@@ -3,20 +3,18 @@ import Foundation
 struct CNPJFormatter: Formatter {
     
     func format(value: String) -> String {
-        let valueWithoutCharacters = value.digitsOnly
-        let formattedString = NSMutableString(string: valueWithoutCharacters)
-        let count = valueWithoutCharacters.characters.count
+        let formattedString = NSMutableString(string: value.digitsOnly)
         
-        if count > 1 {
+        if formattedString.count > 2 {
             formattedString.insert(".", at: 2)
         }
-        if count > 4 {
+        if formattedString.count > 6 {
             formattedString.insert(".", at: 6)
         }
-        if count > 7 {
+        if formattedString.count > 10 {
             formattedString.insert("/", at: 10)
         }
-        if count > 11 {
+        if formattedString.count > 15 {
             formattedString.insert("-", at: 15)
         }
         
@@ -24,7 +22,7 @@ struct CNPJFormatter: Formatter {
     }
     
     func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange, typedText: String) -> Bool {
-        return shouldChangeCharacters(of: textField, inRange: range, typedText: typedText, maxLength: 14)
+        return shouldChangeCharacters(of: textField, inRange: range, typedText: typedText, maxLength: 18)
     }
 
 }

@@ -15,25 +15,17 @@ public protocol Formatter {
 
 extension Formatter {
     func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange, typedText: String, maxLength: Int, isDigitsOnly: Bool = true) -> Bool {
-        var currentText = textField.text ?? ""
-        if isDigitsOnly {
-            currentText = currentText.digitsOnly
+        let currentText = NSString(string: textField.text ?? "")
+        
+        var result = format(value: currentText.replacingCharacters(in: range, with: typedText))
+        
+        if result.characters.count > maxLength {
+            result = result.substring(to: result.index(result.startIndex, offsetBy: maxLength))
         }
         
-        if range.length > 0 && typedText.isEmpty {
-            return true
-        }
+        textField.text = result
+        textField.sendActions(for: .editingChanged)
         
-        if isDigitsOnly && !typedText.hasOnlyDigits {
-            return false
-        }
-        
-        guard currentText.characters.count + typedText.characters.count <= maxLength else {
-            return false
-        }
-        
-        textField.text = format(value: currentText)
-        
-        return true
+        return false
     }
 }

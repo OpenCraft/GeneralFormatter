@@ -9,3 +9,9 @@ internal extension String {
         return rangeOfCharacter(from: CharacterSet.decimalDigits.inverted) == nil
     }
 }
+
+internal extension NSMutableString {
+    internal var count: Int {
+        return (self as String).characters.count
+    }
+}

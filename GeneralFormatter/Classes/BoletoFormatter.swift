@@ -11,36 +11,34 @@ import Foundation
 struct BoletoFormatter: Formatter {
     
     func format(value: String) -> String {
-        let valueWithoutCharacters = value.digitsOnly
-        let formattedString = NSMutableString(string: valueWithoutCharacters)
-        let count = valueWithoutCharacters.characters.count
+        let formattedString = NSMutableString(string: value.digitsOnly)
         
-        if count > 4 {
+        if formattedString.count > 5 {
             formattedString.insert(".", at: 5)
         }
-        if count > 9 {
+        if formattedString.count > 11 {
             formattedString.insert(" ", at: 11)
         }
-        if count > 14 {
+        if formattedString.count > 17 {
             formattedString.insert(".", at: 17)
         }
-        if count > 20 {
+        if formattedString.count > 24 {
             formattedString.insert(" ", at: 24)
         }
-        if count > 25 {
+        if formattedString.count > 30 {
             formattedString.insert(".", at: 30)
         }
-        if count > 31 {
+        if formattedString.count > 37 {
             formattedString.insert(" ", at: 37)
         }
-        if count > 32 {
+        if formattedString.count > 39 {
             formattedString.insert(" ", at: 39)
         }
         return formattedString as String
     }
     
     func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange, typedText: String) -> Bool {
-        return shouldChangeCharacters(of: textField, inRange: range, typedText: typedText, maxLength: 47)
+        return shouldChangeCharacters(of: textField, inRange: range, typedText: typedText, maxLength: 54)
     }
 }
 
