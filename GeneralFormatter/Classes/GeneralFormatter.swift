@@ -34,6 +34,6 @@ public enum GeneralFormatter {
     }
     
     public func formatTextField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        return formatter.shouldChangeCharacters(of: textField, inRange: range)
+        return formatter.shouldChangeCharacters(of: textField, inRange: range, typedText: string)
     }
 }

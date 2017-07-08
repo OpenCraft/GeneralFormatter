@@ -10,32 +10,30 @@ import Foundation
 
 public protocol Formatter {
     func format(value: String) -> String
-    func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange) -> Bool
+    func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange, typedText: String) -> Bool
 }
 
 extension Formatter {
-    
-    func removeSpecialCharacters(of value: String) -> String {
-        var string = value.replacingOccurrences(of: ".", with: "")
-        string = string.replacingOccurrences(of: "/", with: "")
-        string = string.replacingOccurrences(of: "-", with: "")
-        string = string.replacingOccurrences(of: "(", with: "")
-        string = string.replacingOccurrences(of: ")", with: "")
-        string = string.replacingOccurrences(of: " ", with: "")
-        return string
-    }
-    
-    func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange, withLimit limit: Int) -> Bool {
-        let text = textField.text ?? ""
-        guard text.characters.count < limit else {
-            if range.location < limit {
-                return true
-            }
+    func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange, typedText: String, maxLength: Int, isDigitsOnly: Bool = true) -> Bool {
+        var currentText = textField.text ?? ""
+        if isDigitsOnly {
+            currentText = currentText.digitsOnly
+        }
+        
+        if range.length > 0 && typedText.isEmpty {
+            return true
+        }
+        
+        if isDigitsOnly && !typedText.hasOnlyDigits {
             return false
         }
-        if range.location >= text.characters.count {
-            textField.text = format(value: text)
+        
+        guard currentText.characters.count + typedText.characters.count <= maxLength else {
+            return false
         }
+        
+        textField.text = format(value: currentText)
+        
         return true
     }
 }

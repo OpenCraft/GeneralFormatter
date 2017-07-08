@@ -3,7 +3,7 @@ import Foundation
 struct CPFCNPJFormatter: Formatter {
     
     func format(value: String) -> String {
-        let valueWithoutCharacters = removeSpecialCharacters(of: value)
+        let valueWithoutCharacters = value.digitsOnly
         let count = valueWithoutCharacters.characters.count
         
         if count < 12 {
@@ -13,9 +13,9 @@ struct CPFCNPJFormatter: Formatter {
         }
     }
     
-    func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange) -> Bool {
-        let text = textField.text ?? ""
-        let count = removeSpecialCharacters(of: text).characters.count
+    func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange, typedText: String) -> Bool {
+        let text = (textField.text ?? "").digitsOnly
+        let count = text.characters.count
         
         guard count != 12 else {
             textField.text = CPFFormatter().format(value: text)
@@ -23,9 +23,9 @@ struct CPFCNPJFormatter: Formatter {
         }
         
         if count < 11 {
-            return CPFFormatter().shouldChangeCharacters(of: textField, inRange: range)
+            return CPFFormatter().shouldChangeCharacters(of: textField, inRange: range, typedText: typedText)
         } else {
-            return CNPJFormatter().shouldChangeCharacters(of: textField, inRange: range)
+            return CNPJFormatter().shouldChangeCharacters(of: textField, inRange: range, typedText: typedText)
         }
     }
 }

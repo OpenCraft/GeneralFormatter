@@ -11,7 +11,7 @@ import Foundation
 struct BoletoFormatter: Formatter {
     
     func format(value: String) -> String {
-        let valueWithoutCharacters = removeSpecialCharacters(of: value)
+        let valueWithoutCharacters = value.digitsOnly
         let formattedString = NSMutableString(string: valueWithoutCharacters)
         let count = valueWithoutCharacters.characters.count
         
@@ -39,8 +39,8 @@ struct BoletoFormatter: Formatter {
         return formattedString as String
     }
     
-    func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange) -> Bool {
-        return shouldChangeCharacters(of: textField, inRange: range, withLimit: 54)
+    func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange, typedText: String) -> Bool {
+        return shouldChangeCharacters(of: textField, inRange: range, typedText: typedText, maxLength: 47)
     }
 }
 
