@@ -38,7 +38,7 @@ struct BoletoFormatter: Formatter {
     }
     
     func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange, typedText: String) -> Bool {
-        return shouldChangeCharacters(of: textField, inRange: range, typedText: typedText, maxLength: 54)
+        return shouldChangeCharacters(of: textField, inRange: range, typedText: typedText, maxLength: 55)
     }
 }
 
