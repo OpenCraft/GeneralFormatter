@@ -1,6 +1,6 @@
 import Foundation
 
-struct CNPJFormatter: Formatter {
+struct CNPJFormatter: CustomFormatter {
     
     func format(value: String) -> String {
         let formattedString = NSMutableString(string: value.digitsOnly)

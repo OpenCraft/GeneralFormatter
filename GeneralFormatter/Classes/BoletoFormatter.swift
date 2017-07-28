@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct BoletoFormatter: Formatter {
+struct BoletoFormatter: CustomFormatter {
     
     func format(value: String) -> String {
         let formattedString = NSMutableString(string: value.digitsOnly)

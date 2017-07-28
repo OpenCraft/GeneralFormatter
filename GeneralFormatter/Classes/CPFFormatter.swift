@@ -1,6 +1,6 @@
 import Foundation
 
-struct CPFFormatter: Formatter {
+struct CPFFormatter: CustomFormatter {
     
     func format(value: String) -> String {
         let formattedString = NSMutableString(string: value.digitsOnly)

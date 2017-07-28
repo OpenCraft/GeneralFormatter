@@ -8,9 +8,9 @@ public enum GeneralFormatter {
     case cpfCnpj
     case phone
     case cep
-    case custom(formatter: Formatter)
+    case custom(formatter: CustomFormatter)
     
-    var formatter: Formatter {
+    var formatter: CustomFormatter {
         switch self {
         case .boleto:
             return BoletoFormatter()
