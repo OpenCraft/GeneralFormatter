@@ -1,6 +1,6 @@
 import Foundation
 
-struct CEPFormatter: Formatter {
+struct CEPFormatter: CustomFormatter {
     
     func format(value: String) -> String {
         let formattedString = NSMutableString(string: value.digitsOnly)

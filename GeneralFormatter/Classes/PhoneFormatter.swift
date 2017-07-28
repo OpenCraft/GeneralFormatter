@@ -1,6 +1,6 @@
 import Foundation
 
-struct PhoneFormatter: Formatter {
+struct PhoneFormatter: CustomFormatter {
     
     func format(value: String) -> String {
         let formattedString = NSMutableString(string: value.digitsOnly)

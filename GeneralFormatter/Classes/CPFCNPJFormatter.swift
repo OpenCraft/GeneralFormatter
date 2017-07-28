@@ -1,6 +1,6 @@
 import Foundation
 
-struct CPFCNPJFormatter: Formatter {
+struct CPFCNPJFormatter: CustomFormatter {
     
     func format(value: String) -> String {
         let count = value.digitsOnly.characters.count

@@ -1,5 +1,5 @@
 //
-//  Formatter.swift
+//  CustomFormatter.swift
 //  Pods
 //
 //  Created by Cristian Madrid on 22/06/17.
@@ -8,12 +8,12 @@
 
 import Foundation
 
-public protocol Formatter {
+public protocol CustomFormatter {
     func format(value: String) -> String
     func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange, typedText: String) -> Bool
 }
 
-extension Formatter {
+extension CustomFormatter {
     func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange, typedText: String, maxLength: Int, isDigitsOnly: Bool = true) -> Bool {
         let currentText = NSString(string: textField.text ?? "")
         
