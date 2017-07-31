@@ -13,9 +13,10 @@ struct CPFCNPJFormatter: CustomFormatter {
     }
     
     func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange, typedText: String) -> Bool {
-        let count = (textField.text ?? "").digitsOnly.characters.count
+        let text = (textField.text ?? "") as NSString
+        let newText = text.replacingCharacters(in: range, with: typedText)
         
-        if count < 11 {
+        if newText.digitsOnly.characters.count <= 11 {
             return CPFFormatter().shouldChangeCharacters(of: textField, inRange: range, typedText: typedText)
         } else {
             return CNPJFormatter().shouldChangeCharacters(of: textField, inRange: range, typedText: typedText)
