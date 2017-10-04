@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct ConvenioFormatter: Formatter {
+struct ConvenioFormatter: CustomFormatter {
 
     func format(value: String) -> String {
         let formattedString = NSMutableString(string: value.digitsOnly)

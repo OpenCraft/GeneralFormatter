@@ -1,5 +1,5 @@
 PODS:
-  - GeneralFormatter (2.1.1)
+  - GeneralFormatter (2.1.5)
 
 DEPENDENCIES:
   - GeneralFormatter (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GeneralFormatter: aede46949bcb081a7e346970160cf5147000a941
+  GeneralFormatter: e7dbe5277652f754b3ae29dc5580557eb8b65b18
 
 PODFILE CHECKSUM: ec4a3bc57021d94ba554319e839e0fcdacabf704
 
