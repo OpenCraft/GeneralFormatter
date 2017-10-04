@@ -3,6 +3,8 @@ import Foundation
 public enum GeneralFormatter {
     
     case boleto
+    case convenio
+    case boletoConvenio
     case cpf
     case cnpj
     case cpfCnpj
@@ -14,6 +16,10 @@ public enum GeneralFormatter {
         switch self {
         case .boleto:
             return BoletoFormatter()
+        case .convenio:
+            return ConvenioFormatter()
+        case .boletoConvenio:
+            return BoletoConvenioFormatter()
         case .cpf:
             return CPFFormatter()
         case .phone:
