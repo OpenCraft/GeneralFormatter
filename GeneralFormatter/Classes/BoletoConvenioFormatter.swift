@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct BoletoConvenioFormatter: Formatter {
+struct BoletoConvenioFormatter: CustomFormatter {
 
     func format(value: String) -> String {
         let firstChar = value.digitsOnly.characters.first
