@@ -9,6 +9,7 @@
 You can apply the following masks on your textfields:
  - BOLETO
  - CEP
+ - CONVENIOS
  - CPF
  - CNPJ
  - PHONE
