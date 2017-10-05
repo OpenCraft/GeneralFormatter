@@ -8,11 +8,11 @@
 ## Features
 You can apply the following masks on your textfields:
  - BOLETO
- - BOLETOCONVENIOS
+ - BOLETO & CONVENIOS
  - CEP
  - CONVENIOS
  - CPF
- - CPFCNPJ
+ - CPF & CNPJ
  - CNPJ
  - PHONE
 
