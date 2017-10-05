@@ -42,6 +42,7 @@ func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange
 
 ## Author
 
+Luis Filipe Campani, luisfilipecampani@gmail.com
 Uriel Battanoli, urielbattanoli@gmail.com
 
 ## License
