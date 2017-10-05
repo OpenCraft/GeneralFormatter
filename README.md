@@ -8,8 +8,11 @@
 ## Features
 You can apply the following masks on your textfields:
  - BOLETO
+ - BOLETO & CONVENIOS
  - CEP
+ - CONVENIOS
  - CPF
+ - CPF & CNPJ
  - CNPJ
  - PHONE
 
@@ -37,8 +40,9 @@ func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange
 }
 ```
 
-## Author
+## Authors
 
+Luis Filipe Campani, luisfilipecampani@gmail.com
 Uriel Battanoli, urielbattanoli@gmail.com
 
 ## License
