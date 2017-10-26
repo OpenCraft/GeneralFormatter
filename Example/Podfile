@@ -1,11 +1,15 @@
 use_frameworks!
 
+def testing_pods
+    pod 'Quick'
+    pod 'Nimble'
+end
+
 target 'GeneralFormatter_Example' do
   pod 'GeneralFormatter', :path => '../'
 
   target 'GeneralFormatter_Tests' do
     inherit! :search_paths
-
-    
+    testing_pods
   end
 end
