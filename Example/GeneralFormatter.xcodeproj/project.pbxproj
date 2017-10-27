@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4E278B931FA172E400B9A577 /* CPFFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9A52501FA16D9D008425F8 /* CPFFormatterTests.swift */; };
 		4E278B941FA172F400B9A577 /* GeneralFormatter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E278B951FA172F400B9A577 /* GeneralFormatter.framework */; };
+		4E80F5E51FA3236E00F04240 /* MaskFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E80F5E41FA3236E00F04240 /* MaskFormatterTests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		4E278B891FA172D600B9A577 /* GeneralFormatter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneralFormatter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E278B8D1FA172D700B9A577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E278B951FA172F400B9A577 /* GeneralFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GeneralFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E80F5E41FA3236E00F04240 /* MaskFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskFormatterTests.swift; sourceTree = "<group>"; };
 		4E9A52501FA16D9D008425F8 /* CPFFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPFFormatterTests.swift; sourceTree = "<group>"; };
 		5E4EEDD726308C90599AEB1F /* Pods-GeneralFormatter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeneralFormatter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeneralFormatter_Example/Pods-GeneralFormatter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GeneralFormatter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneralFormatter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +90,7 @@
 			children = (
 				4E9A52501FA16D9D008425F8 /* CPFFormatterTests.swift */,
 				4E278B8D1FA172D700B9A577 /* Info.plist */,
+				4E80F5E41FA3236E00F04240 /* MaskFormatterTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E80F5E51FA3236E00F04240 /* MaskFormatterTests.swift in Sources */,
 				4E278B931FA172E400B9A577 /* CPFFormatterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

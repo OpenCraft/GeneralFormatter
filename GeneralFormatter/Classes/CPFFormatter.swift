@@ -1,20 +1,12 @@
 import Foundation
 
 struct CPFFormatter: CustomFormatter {
-    
+
+    private let mask = "###.###.###-##"
+    private let maskFormatter = MaskFormatter()
+
     func format(value: String) -> String {
-        let formattedString = NSMutableString(string: value.digitsOnly)
-        
-        if formattedString.count > 3 {
-            formattedString.insert(".", at: 3)
-        }
-        if formattedString.count > 7 {
-            formattedString.insert(".", at: 7)
-        }
-        if formattedString.count > 11 {
-            formattedString.insert("-", at: 11)
-        }
-        return formattedString as String
+        return maskFormatter.mask(value: value, with: mask)
     }
 
     func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange, typedText: String) -> Bool {
