@@ -1,6 +1,6 @@
 {
   "name": "GeneralFormatter",
-  "version": "2.1.5",
+  "version": "2.2.2",
   "summary": "A general formatter.",
   "description": "A library to format some general information like: CNPJ, CPF, Brazilian cell phone, etc.",
   "homepage": "https://github.com/OpenCraft/GeneralFormatter",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/OpenCraft/GeneralFormatter.git",
-    "tag": "2.1.5"
+    "tag": "2.2.2"
   },
   "platforms": {
     "ios": "8.0"

@@ -20,7 +20,12 @@ struct BoletoConvenioFormatter: CustomFormatter {
     }
 
     func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange, typedText: String) -> Bool {
-        let firstChar = (textField.text ?? "").digitsOnly.characters.first
+        let firstChar: String.Element?
+        if let textFieldValue = textField.text, !textFieldValue.isEmpty {
+            firstChar = textFieldValue.digitsOnly.characters.first
+        } else {
+            firstChar = typedText.digitsOnly.characters.first
+        }
 
         if firstChar == "8" {
             return ConvenioFormatter().shouldChangeCharacters(of: textField, inRange: range, typedText: typedText)

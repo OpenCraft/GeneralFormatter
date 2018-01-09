@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004B7FA852804DEE2319F99D37CC6FF6 /* GeneralFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5652D182B37D208F7C3C7A37C4F850E /* GeneralFormatter.swift */; };
 		053579417EA0C37A78159065DBC0D525 /* Pods-GeneralFormatter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEC876DA5B42B2D3765555308AB7E21 /* Pods-GeneralFormatter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1ED89B756363365EE37C2CC1A20C5641 /* CPFCNPJFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B791CC9A2EAE7FF0341D2DC4E0F187 /* CPFCNPJFormatter.swift */; };
-		3415D469F1FEA8B662871E0A003B9546 /* PhoneFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9454F15A20A4B33113DAECC05F71C36D /* PhoneFormatter.swift */; };
-		3AC79A9B9FE355C3186A593AEE570ECB /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C12CA71FD984E41FE378211836C5F8B /* StringExtensions.swift */; };
-		40F447B3BA725E7580F7941CD6F70C82 /* BoletoConvenioFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722121B6284F515E5D4EFE059F4D6B4A /* BoletoConvenioFormatter.swift */; };
-		613CA16CB7A4EBE6D9CA53D131B24AEA /* GeneralFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487A0EAB705E2088B1AC4DE41E4A5E68 /* GeneralFormatter.swift */; };
+		4602BEC903935D7224C861B181266CA9 /* GeneralFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B9A63135532E333120426003FE864D /* GeneralFormatter-dummy.m */; };
+		467612B2F73C70B2C18384598ADF6F1D /* CPFCNPJFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57985AAB0CDB987B06045B255D7435 /* CPFCNPJFormatter.swift */; };
+		4C8C0B97FA628CBC1BD29E52BD527854 /* CNPJFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA82480669B324EEEEAA57AAF6D7B8 /* CNPJFormatter.swift */; };
+		4EE9748388B4905176BE580CCF033F26 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B21D8794EB063EEF456392D5D8DB2 /* StringExtensions.swift */; };
 		671B1111CDA258AD5E4E598DE19B9179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		71A600D7D90F975835B16EC6723C5A15 /* CPFFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F143287F0384400FF090F80C778A7111 /* CPFFormatter.swift */; };
+		6A06DEC74729CB73BE3B56202F778994 /* BoletoConvenioFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7767BC6DA27859853CA44CDC0C310FC0 /* BoletoConvenioFormatter.swift */; };
+		6A803383C7314B6D12599F485C7A6D63 /* PhoneFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3A03AB7861E20755436B9F021C04BB /* PhoneFormatter.swift */; };
+		A009B33A8208C359630700B980A63DFE /* BoletoFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FC4A97C131D88318DFA3A40D1BC034 /* BoletoFormatter.swift */; };
+		A5D45490F267763C4228EDF29B253471 /* ConvenioFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C05476EABDA8F789A9F610BCC6E0822 /* ConvenioFormatter.swift */; };
+		A9F201BA367382D60629D83B4E1C63C3 /* CustomFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBA49300696A72A5459B40610C482C9 /* CustomFormatter.swift */; };
+		B0D1B0A299BEE27F065C330C240A0B8B /* CPFFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8D9731C909CEAC93FE0DFA5C33A65 /* CPFFormatter.swift */; };
 		B11BD5D7D5C59948529986EE2580B65B /* Pods-GeneralFormatter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FE7A60001077F1884913F50899DE17 /* Pods-GeneralFormatter_Tests-dummy.m */; };
-		B3F88D3F1622FAEDCFB53C5221E60E6F /* GeneralFormatter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A881C1EB5CB8C8A0842EF5A44DB644EC /* GeneralFormatter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3F88D3F1622FAEDCFB53C5221E60E6F /* GeneralFormatter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1941A7CCC8FF52164FBC593CD06036 /* GeneralFormatter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B76C6D4BA20874BBCAB93A1D8668F419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CAD90140DDFC39C06099F98CC5F0798D /* ConvenioFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BB357488EC009E360B06090424678E /* ConvenioFormatter.swift */; };
 		D4B7985BAED2AAE3BA559859CA8B88A0 /* Pods-GeneralFormatter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D69ACDA7481F1B27705B250702F67F4 /* Pods-GeneralFormatter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5C8B93A35C81AE09B14949B4C0241CA /* Pods-GeneralFormatter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4023D0EB5F51E91F0A52EE92483FE6FA /* Pods-GeneralFormatter_Example-dummy.m */; };
+		D6E7529F194AF84060DED325A62569A8 /* CEPFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6BEEB286138A2F7D18FCE3B9601B83 /* CEPFormatter.swift */; };
 		E283F26250079A6389D028BC4079AD2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		ECD499F80CA2326AE09F851FD7A67F24 /* GeneralFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 134276A5BA31F9EBE27F4729C26262F2 /* GeneralFormatter-dummy.m */; };
-		F5BC5AFB96AD67270CB9A52B25A75F8E /* CEPFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CFE1DF6FD9A00AD6D6DE826993C938 /* CEPFormatter.swift */; };
-		F63BA24704D3C2DBBF852273F1AE70E8 /* CustomFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA452BFCF918AAC9DFC9B2895826699 /* CustomFormatter.swift */; };
-		F694C8FB2A3CCE49CC84AAEA02C808EE /* CNPJFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459AB408E002381F4973A315D1192B9 /* CNPJFormatter.swift */; };
-		F9AC625A546BE8E698CBE33827538D9E /* BoletoFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940B80FFB29CF23F09A7D030E86A7314 /* BoletoFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,48 +40,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AA452BFCF918AAC9DFC9B2895826699 /* CustomFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomFormatter.swift; sourceTree = "<group>"; };
 		0D754552831B8233AEED9334E8D2CF41 /* Pods-GeneralFormatter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeneralFormatter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		12101FC4FA8B7B9B48D6729B08A5D9FA /* GeneralFormatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GeneralFormatter.xcconfig; sourceTree = "<group>"; };
-		134276A5BA31F9EBE27F4729C26262F2 /* GeneralFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GeneralFormatter-dummy.m"; sourceTree = "<group>"; };
+		0F65F70D55854D5A87E16CA0EDB1AED5 /* GeneralFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeneralFormatter-prefix.pch"; sourceTree = "<group>"; };
+		1C05476EABDA8F789A9F610BCC6E0822 /* ConvenioFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConvenioFormatter.swift; path = GeneralFormatter/Classes/ConvenioFormatter.swift; sourceTree = "<group>"; };
 		1D69ACDA7481F1B27705B250702F67F4 /* Pods-GeneralFormatter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeneralFormatter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		22BDC1CBDF3FA1192BCDD20C431E224D /* Pods-GeneralFormatter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeneralFormatter_Example-resources.sh"; sourceTree = "<group>"; };
 		24621E5949E3E4545C5A87C730972914 /* Pods-GeneralFormatter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeneralFormatter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2733BE6CA5EDBE5E2C50A88D2A979772 /* Pods-GeneralFormatter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeneralFormatter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2C12CA71FD984E41FE378211836C5F8B /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		2C6BEEB286138A2F7D18FCE3B9601B83 /* CEPFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CEPFormatter.swift; path = GeneralFormatter/Classes/CEPFormatter.swift; sourceTree = "<group>"; };
 		2E73C5ECE8B621A417E86CCE929A31C0 /* Pods-GeneralFormatter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeneralFormatter_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		36388698974F367415EF0D67C403ED30 /* Pods_GeneralFormatter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GeneralFormatter_Example.framework; path = "Pods-GeneralFormatter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37D67E263AB4C4196B38D25156991229 /* GeneralFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeneralFormatter-prefix.pch"; sourceTree = "<group>"; };
 		3BC609749ABB798893B0E167FB325BE8 /* GeneralFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GeneralFormatter.framework; path = GeneralFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3A03AB7861E20755436B9F021C04BB /* PhoneFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneFormatter.swift; path = GeneralFormatter/Classes/PhoneFormatter.swift; sourceTree = "<group>"; };
 		3D8B86C8D6B339A4EC8178DAB3B98C10 /* Pods-GeneralFormatter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeneralFormatter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4023D0EB5F51E91F0A52EE92483FE6FA /* Pods-GeneralFormatter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeneralFormatter_Example-dummy.m"; sourceTree = "<group>"; };
-		487A0EAB705E2088B1AC4DE41E4A5E68 /* GeneralFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneralFormatter.swift; sourceTree = "<group>"; };
+		48C8D9731C909CEAC93FE0DFA5C33A65 /* CPFFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CPFFormatter.swift; path = GeneralFormatter/Classes/CPFFormatter.swift; sourceTree = "<group>"; };
+		4B57985AAB0CDB987B06045B255D7435 /* CPFCNPJFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CPFCNPJFormatter.swift; path = GeneralFormatter/Classes/CPFCNPJFormatter.swift; sourceTree = "<group>"; };
 		4BB651233D467E9D4E56BE22A5BDCC2C /* Pods-GeneralFormatter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeneralFormatter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		55FE7A60001077F1884913F50899DE17 /* Pods-GeneralFormatter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeneralFormatter_Tests-dummy.m"; sourceTree = "<group>"; };
 		5834DB0E573A896DDBBF119FCAB29516 /* Pods-GeneralFormatter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeneralFormatter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		65D0AC12E8A3F6B0C22E0079E775AA44 /* Pods-GeneralFormatter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GeneralFormatter_Example.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		722121B6284F515E5D4EFE059F4D6B4A /* BoletoConvenioFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoletoConvenioFormatter.swift; sourceTree = "<group>"; };
+		68FC4A97C131D88318DFA3A40D1BC034 /* BoletoFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoletoFormatter.swift; path = GeneralFormatter/Classes/BoletoFormatter.swift; sourceTree = "<group>"; };
+		7767BC6DA27859853CA44CDC0C310FC0 /* BoletoConvenioFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoletoConvenioFormatter.swift; path = GeneralFormatter/Classes/BoletoConvenioFormatter.swift; sourceTree = "<group>"; };
+		77F66F7D184757D2517F5BD837B7F09B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		940B80FFB29CF23F09A7D030E86A7314 /* BoletoFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoletoFormatter.swift; sourceTree = "<group>"; };
-		9454F15A20A4B33113DAECC05F71C36D /* PhoneFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhoneFormatter.swift; sourceTree = "<group>"; };
 		987745BAA40A9FF1741AC96472B67B42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99B791CC9A2EAE7FF0341D2DC4E0F187 /* CPFCNPJFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CPFCNPJFormatter.swift; sourceTree = "<group>"; };
 		9CB901B5A70C5207BF626B2CDBFA0C0A /* Pods-GeneralFormatter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeneralFormatter_Tests-resources.sh"; sourceTree = "<group>"; };
-		A881C1EB5CB8C8A0842EF5A44DB644EC /* GeneralFormatter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeneralFormatter-umbrella.h"; sourceTree = "<group>"; };
+		ABCA82480669B324EEEEAA57AAF6D7B8 /* CNPJFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CNPJFormatter.swift; path = GeneralFormatter/Classes/CNPJFormatter.swift; sourceTree = "<group>"; };
 		ADEC876DA5B42B2D3765555308AB7E21 /* Pods-GeneralFormatter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeneralFormatter_Example-umbrella.h"; sourceTree = "<group>"; };
-		B02FB788689AD004B5E97C463E9543BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4BB357488EC009E360B06090424678E /* ConvenioFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConvenioFormatter.swift; sourceTree = "<group>"; };
-		B4CFE1DF6FD9A00AD6D6DE826993C938 /* CEPFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CEPFormatter.swift; sourceTree = "<group>"; };
+		B2B9A63135532E333120426003FE864D /* GeneralFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GeneralFormatter-dummy.m"; sourceTree = "<group>"; };
 		B91D58B5A6EAEFAF919713A4EA3FDA57 /* Pods-GeneralFormatter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeneralFormatter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BDBA49300696A72A5459B40610C482C9 /* CustomFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFormatter.swift; path = GeneralFormatter/Classes/CustomFormatter.swift; sourceTree = "<group>"; };
 		C31BE587CB3FDD51BC258BE1AC14375D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4F76C8F66E34DE016673FCF84E52652 /* Pods-GeneralFormatter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GeneralFormatter_Tests.modulemap"; sourceTree = "<group>"; };
-		D1B547E3921E5B2249D6EA33DA844E32 /* GeneralFormatter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GeneralFormatter.modulemap; sourceTree = "<group>"; };
 		D522545E768E5A718055994E3E6A01C0 /* Pods-GeneralFormatter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeneralFormatter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5652D182B37D208F7C3C7A37C4F850E /* GeneralFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeneralFormatter.swift; path = GeneralFormatter/Classes/GeneralFormatter.swift; sourceTree = "<group>"; };
 		D983B97E76C16169DA545FBFDF4CE505 /* Pods-GeneralFormatter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeneralFormatter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DB960D346E4A34D300429DF0D7169E78 /* GeneralFormatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GeneralFormatter.xcconfig; sourceTree = "<group>"; };
+		EF02A0DA9A2474C2B4D7DF020C245B56 /* GeneralFormatter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GeneralFormatter.modulemap; sourceTree = "<group>"; };
 		EF07851694C44D0E149165DD30ABFEDC /* Pods_GeneralFormatter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GeneralFormatter_Tests.framework; path = "Pods-GeneralFormatter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F143287F0384400FF090F80C778A7111 /* CPFFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CPFFormatter.swift; sourceTree = "<group>"; };
-		F459AB408E002381F4973A315D1192B9 /* CNPJFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CNPJFormatter.swift; sourceTree = "<group>"; };
+		F39B21D8794EB063EEF456392D5D8DB2 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = GeneralFormatter/Classes/StringExtensions.swift; sourceTree = "<group>"; };
+		FA1941A7CCC8FF52164FBC593CD06036 /* GeneralFormatter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeneralFormatter-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,14 +148,6 @@
 			path = "Target Support Files/Pods-GeneralFormatter_Example";
 			sourceTree = "<group>";
 		};
-		18D1792393E6EBCB010401BE9A35F0B7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C0B024C692E9902CE353CF1D8A2FB938 /* GeneralFormatter */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		1CEB7001BA9990CAD52A1FED7563F914 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,45 +157,46 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		725CA980AE2136CC298FA246FBCE4D73 /* Classes */ = {
+		36BF6311928AB9A33289D6122AF96503 /* GeneralFormatter */ = {
 			isa = PBXGroup;
 			children = (
-				722121B6284F515E5D4EFE059F4D6B4A /* BoletoConvenioFormatter.swift */,
-				940B80FFB29CF23F09A7D030E86A7314 /* BoletoFormatter.swift */,
-				B4CFE1DF6FD9A00AD6D6DE826993C938 /* CEPFormatter.swift */,
-				F459AB408E002381F4973A315D1192B9 /* CNPJFormatter.swift */,
-				B4BB357488EC009E360B06090424678E /* ConvenioFormatter.swift */,
-				99B791CC9A2EAE7FF0341D2DC4E0F187 /* CPFCNPJFormatter.swift */,
-				F143287F0384400FF090F80C778A7111 /* CPFFormatter.swift */,
-				0AA452BFCF918AAC9DFC9B2895826699 /* CustomFormatter.swift */,
-				487A0EAB705E2088B1AC4DE41E4A5E68 /* GeneralFormatter.swift */,
-				9454F15A20A4B33113DAECC05F71C36D /* PhoneFormatter.swift */,
-				2C12CA71FD984E41FE378211836C5F8B /* StringExtensions.swift */,
+				7767BC6DA27859853CA44CDC0C310FC0 /* BoletoConvenioFormatter.swift */,
+				68FC4A97C131D88318DFA3A40D1BC034 /* BoletoFormatter.swift */,
+				2C6BEEB286138A2F7D18FCE3B9601B83 /* CEPFormatter.swift */,
+				ABCA82480669B324EEEEAA57AAF6D7B8 /* CNPJFormatter.swift */,
+				1C05476EABDA8F789A9F610BCC6E0822 /* ConvenioFormatter.swift */,
+				4B57985AAB0CDB987B06045B255D7435 /* CPFCNPJFormatter.swift */,
+				48C8D9731C909CEAC93FE0DFA5C33A65 /* CPFFormatter.swift */,
+				BDBA49300696A72A5459B40610C482C9 /* CustomFormatter.swift */,
+				D5652D182B37D208F7C3C7A37C4F850E /* GeneralFormatter.swift */,
+				3C3A03AB7861E20755436B9F021C04BB /* PhoneFormatter.swift */,
+				F39B21D8794EB063EEF456392D5D8DB2 /* StringExtensions.swift */,
+				8CA609229519E8A883E65D1AA54A3777 /* Support Files */,
 			);
-			name = Classes;
-			path = Classes;
+			name = GeneralFormatter;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				18D1792393E6EBCB010401BE9A35F0B7 /* Development Pods */,
+				E2BFDE2046180DB898B63109E6AF6C24 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				CA4621191C78007F5AB6619959F740E4 /* Products */,
 				1CEB7001BA9990CAD52A1FED7563F914 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A539220D3A16B8DDE8F1DF4141A7E34A /* Support Files */ = {
+		8CA609229519E8A883E65D1AA54A3777 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D1B547E3921E5B2249D6EA33DA844E32 /* GeneralFormatter.modulemap */,
-				12101FC4FA8B7B9B48D6729B08A5D9FA /* GeneralFormatter.xcconfig */,
-				134276A5BA31F9EBE27F4729C26262F2 /* GeneralFormatter-dummy.m */,
-				37D67E263AB4C4196B38D25156991229 /* GeneralFormatter-prefix.pch */,
-				A881C1EB5CB8C8A0842EF5A44DB644EC /* GeneralFormatter-umbrella.h */,
-				B02FB788689AD004B5E97C463E9543BA /* Info.plist */,
+				EF02A0DA9A2474C2B4D7DF020C245B56 /* GeneralFormatter.modulemap */,
+				DB960D346E4A34D300429DF0D7169E78 /* GeneralFormatter.xcconfig */,
+				B2B9A63135532E333120426003FE864D /* GeneralFormatter-dummy.m */,
+				0F65F70D55854D5A87E16CA0EDB1AED5 /* GeneralFormatter-prefix.pch */,
+				FA1941A7CCC8FF52164FBC593CD06036 /* GeneralFormatter-umbrella.h */,
+				77F66F7D184757D2517F5BD837B7F09B /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/GeneralFormatter";
@@ -215,16 +208,6 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C0B024C692E9902CE353CF1D8A2FB938 /* GeneralFormatter */ = {
-			isa = PBXGroup;
-			children = (
-				FFEC78EA3168356BF3AFECCB3E2B3338 /* GeneralFormatter */,
-				A539220D3A16B8DDE8F1DF4141A7E34A /* Support Files */,
-			);
-			name = GeneralFormatter;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CA4621191C78007F5AB6619959F740E4 /* Products */ = {
@@ -245,13 +228,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FFEC78EA3168356BF3AFECCB3E2B3338 /* GeneralFormatter */ = {
+		E2BFDE2046180DB898B63109E6AF6C24 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				725CA980AE2136CC298FA246FBCE4D73 /* Classes */,
+				36BF6311928AB9A33289D6122AF96503 /* GeneralFormatter */,
 			);
-			name = GeneralFormatter;
-			path = GeneralFormatter;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,7 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22C5EFA07A898FE88F03F6399FDBFF70 /* Build configuration list for PBXNativeTarget "GeneralFormatter" */;
 			buildPhases = (
-				E65B968D9BDC9D43A2892725D5AFD78A /* Sources */,
+				42CA6B38118B44DDE657EC7293106086 /* Sources */,
 				33BBC895BCA15BA71EA70DDEEEAAFCE9 /* Frameworks */,
 				578BEEED8E1BD98F45CB2C68E58DA34D /* Headers */,
 			);
@@ -365,6 +347,25 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		42CA6B38118B44DDE657EC7293106086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A06DEC74729CB73BE3B56202F778994 /* BoletoConvenioFormatter.swift in Sources */,
+				A009B33A8208C359630700B980A63DFE /* BoletoFormatter.swift in Sources */,
+				D6E7529F194AF84060DED325A62569A8 /* CEPFormatter.swift in Sources */,
+				4C8C0B97FA628CBC1BD29E52BD527854 /* CNPJFormatter.swift in Sources */,
+				A5D45490F267763C4228EDF29B253471 /* ConvenioFormatter.swift in Sources */,
+				467612B2F73C70B2C18384598ADF6F1D /* CPFCNPJFormatter.swift in Sources */,
+				B0D1B0A299BEE27F065C330C240A0B8B /* CPFFormatter.swift in Sources */,
+				A9F201BA367382D60629D83B4E1C63C3 /* CustomFormatter.swift in Sources */,
+				4602BEC903935D7224C861B181266CA9 /* GeneralFormatter-dummy.m in Sources */,
+				004B7FA852804DEE2319F99D37CC6FF6 /* GeneralFormatter.swift in Sources */,
+				6A803383C7314B6D12599F485C7A6D63 /* PhoneFormatter.swift in Sources */,
+				4EE9748388B4905176BE580CCF033F26 /* StringExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6192F7ACCE0E5EFCD3922747F972EAFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,25 +382,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E65B968D9BDC9D43A2892725D5AFD78A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40F447B3BA725E7580F7941CD6F70C82 /* BoletoConvenioFormatter.swift in Sources */,
-				F9AC625A546BE8E698CBE33827538D9E /* BoletoFormatter.swift in Sources */,
-				F5BC5AFB96AD67270CB9A52B25A75F8E /* CEPFormatter.swift in Sources */,
-				F694C8FB2A3CCE49CC84AAEA02C808EE /* CNPJFormatter.swift in Sources */,
-				CAD90140DDFC39C06099F98CC5F0798D /* ConvenioFormatter.swift in Sources */,
-				1ED89B756363365EE37C2CC1A20C5641 /* CPFCNPJFormatter.swift in Sources */,
-				71A600D7D90F975835B16EC6723C5A15 /* CPFFormatter.swift in Sources */,
-				F63BA24704D3C2DBBF852273F1AE70E8 /* CustomFormatter.swift in Sources */,
-				ECD499F80CA2326AE09F851FD7A67F24 /* GeneralFormatter-dummy.m in Sources */,
-				613CA16CB7A4EBE6D9CA53D131B24AEA /* GeneralFormatter.swift in Sources */,
-				3415D469F1FEA8B662871E0A003B9546 /* PhoneFormatter.swift in Sources */,
-				3AC79A9B9FE355C3186A593AEE570ECB /* StringExtensions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -412,7 +394,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		16B7622885270D57D15F1CCDF4F163B1 /* Release */ = {
+		006F0850EC2CF6A885C6F4405AD60085 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4BB651233D467E9D4E56BE22A5BDCC2C /* Pods-GeneralFormatter_Example.release.xcconfig */;
 			buildSettings = {
@@ -421,20 +403,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-GeneralFormatter_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GeneralFormatter_Example/Pods-GeneralFormatter_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -443,136 +421,129 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		192E6E05289BE1F149F86DCC039DC29C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12101FC4FA8B7B9B48D6729B08A5D9FA /* GeneralFormatter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GeneralFormatter/GeneralFormatter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GeneralFormatter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GeneralFormatter/GeneralFormatter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = GeneralFormatter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2F04B545ABF62BDAF4C6A1CF6BA522FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B91D58B5A6EAEFAF919713A4EA3FDA57 /* Pods-GeneralFormatter_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GeneralFormatter_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GeneralFormatter_Example/Pods-GeneralFormatter_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GeneralFormatter_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		1CDAB5613991E411E5990BAF694995C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		4A9ED2AE833069440508E0A06861AE3E /* Debug */ = {
+		7B62A85C412D689EF418FA67DA770A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		832B5DB489662DBA78F6FCB4F945C06A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5834DB0E573A896DDBBF119FCAB29516 /* Pods-GeneralFormatter_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -581,20 +552,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-GeneralFormatter_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GeneralFormatter_Tests/Pods-GeneralFormatter_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -608,7 +575,104 @@
 			};
 			name = Debug;
 		};
-		4D63E1BBAC927A2F96C1B63E1851B707 /* Release */ = {
+		9F06DEA49B865D8B0DCACA66BE877266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB960D346E4A34D300429DF0D7169E78 /* GeneralFormatter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GeneralFormatter/GeneralFormatter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GeneralFormatter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GeneralFormatter/GeneralFormatter.modulemap";
+				PRODUCT_NAME = GeneralFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6ECF346CEA76F877187765D882FAA42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB960D346E4A34D300429DF0D7169E78 /* GeneralFormatter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GeneralFormatter/GeneralFormatter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GeneralFormatter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GeneralFormatter/GeneralFormatter.modulemap";
+				PRODUCT_NAME = GeneralFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB882887390F2333346F0C21954C3E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B91D58B5A6EAEFAF919713A4EA3FDA57 /* Pods-GeneralFormatter_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeneralFormatter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeneralFormatter_Example/Pods-GeneralFormatter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GeneralFormatter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD2CC83D26B84532437AA40E7A8E029C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D983B97E76C16169DA545FBFDF4CE505 /* Pods-GeneralFormatter_Tests.release.xcconfig */;
 			buildSettings = {
@@ -617,20 +681,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-GeneralFormatter_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GeneralFormatter_Tests/Pods-GeneralFormatter_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -639,84 +699,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		90BF989EB26569F43BB2492EA013665B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12101FC4FA8B7B9B48D6729B08A5D9FA /* GeneralFormatter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GeneralFormatter/GeneralFormatter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GeneralFormatter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GeneralFormatter/GeneralFormatter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = GeneralFormatter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -728,8 +711,8 @@
 		22C5EFA07A898FE88F03F6399FDBFF70 /* Build configuration list for PBXNativeTarget "GeneralFormatter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				192E6E05289BE1F149F86DCC039DC29C /* Debug */,
-				90BF989EB26569F43BB2492EA013665B /* Release */,
+				C6ECF346CEA76F877187765D882FAA42 /* Debug */,
+				9F06DEA49B865D8B0DCACA66BE877266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -737,8 +720,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				1CDAB5613991E411E5990BAF694995C5 /* Debug */,
+				7B62A85C412D689EF418FA67DA770A41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -746,8 +729,8 @@
 		53A0727D12500780B02C17F4026F3EC6 /* Build configuration list for PBXNativeTarget "Pods-GeneralFormatter_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A9ED2AE833069440508E0A06861AE3E /* Debug */,
-				4D63E1BBAC927A2F96C1B63E1851B707 /* Release */,
+				832B5DB489662DBA78F6FCB4F945C06A /* Debug */,
+				DD2CC83D26B84532437AA40E7A8E029C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -755,8 +738,8 @@
 		631DCBECFC4BD11C43EB4B10F80015A9 /* Build configuration list for PBXNativeTarget "Pods-GeneralFormatter_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F04B545ABF62BDAF4C6A1CF6BA522FA /* Debug */,
-				16B7622885270D57D15F1CCDF4F163B1 /* Release */,
+				CB882887390F2333346F0C21954C3E8A /* Debug */,
+				006F0850EC2CF6A885C6F4405AD60085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
