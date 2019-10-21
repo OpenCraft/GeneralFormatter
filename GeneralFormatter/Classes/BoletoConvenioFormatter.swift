@@ -10,7 +10,7 @@ import Foundation
 struct BoletoConvenioFormatter: CustomFormatter {
 
     func format(value: String) -> String {
-        let firstChar = value.digitsOnly.characters.first
+        let firstChar = value.digitsOnly.first
 
         if firstChar == "8" {
             return ConvenioFormatter().format(value: value)
@@ -22,9 +22,9 @@ struct BoletoConvenioFormatter: CustomFormatter {
     func shouldChangeCharacters(of textField: UITextField, inRange range: NSRange, typedText: String) -> Bool {
         let firstChar: String.Element?
         if let textFieldValue = textField.text, !textFieldValue.isEmpty {
-            firstChar = textFieldValue.digitsOnly.characters.first
+            firstChar = textFieldValue.digitsOnly.first
         } else {
-            firstChar = typedText.digitsOnly.characters.first
+            firstChar = typedText.digitsOnly.first
         }
 
         if firstChar == "8" {

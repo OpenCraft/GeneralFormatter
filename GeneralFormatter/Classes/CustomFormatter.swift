@@ -19,7 +19,7 @@ extension CustomFormatter {
         
         var result = format(value: currentText.replacingCharacters(in: range, with: typedText))
         
-        if result.characters.count > maxLength {
+        if result.count > maxLength {
             result = result.substring(to: result.index(result.startIndex, offsetBy: maxLength))
         }
         
