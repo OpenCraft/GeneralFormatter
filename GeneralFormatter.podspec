@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GeneralFormatter'
-  s.version          = '2.2.3'
+  s.version          = '2.3.0'
   s.summary          = 'A general formatter.'
 
 # This description is used to generate tags and improve search results.
